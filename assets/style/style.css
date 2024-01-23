@@ -1,0 +1,106 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    
+    --colorprimaria:green;
+
+    --color1:White;
+    --color2:grey;
+    --color3:darkgrey;
+    --color4:hsl(0, 0%, 8%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color4);
+    color: var(--color1);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(31, 30, 30);
+    height: 700px;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+main img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 150px;
+    margin-bottom: 35px;
+}
+
+main h1 {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+main h2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color:greenyellow
+}
+
+main p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+main a {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    
+}
+
+main a li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(151, 150, 150, 0.486);
+    color: white;
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+li:hover {
+    background-color:greenyellow;
+    transition: 0.3s;
+    color:rgb(31, 30, 30) ;
+}
+
+.attribution {
+    padding-top: 30px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color:chartreuse;
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+}
