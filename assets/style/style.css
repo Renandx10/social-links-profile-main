@@ -66,14 +66,14 @@ main p {
     margin-bottom: 30px;
 }
 
-main a {
+main li {
     text-decoration: none;
     list-style: none;
     margin: 20px;
     
 }
 
-main a li {
+main li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,9 +84,10 @@ main a li {
     border-radius: 10px;
     transition: 0.3s;
     font-weight: 600;
+    text-decoration: none;
 }
 
-li:hover {
+li a:hover {
     background-color:greenyellow;
     transition: 0.3s;
     color:rgb(31, 30, 30) ;
